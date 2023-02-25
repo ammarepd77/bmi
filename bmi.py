@@ -5,6 +5,7 @@ import argparse
 from pywebio import start_server
 
 def bmi():
+    server=bmi.server
     height = input("Input your height(cm)：", type=FLOAT)
     weight = input("Input your weight(kg)：", type=FLOAT)
 
